@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<style>
+			body {
+				background-color: black;
+				color: #e0e0e0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				font-family: sans-serif;
+			}
+
+			form {
+				margin: 2em 0;
+			}
+
+			a {
+				color: #e0e0e0;
+			}
+		</style>
+
+		<title>NanoNets IC Node.js SDK Example</title>
+	</head>
+
+	<body>
+		<h1>NanoNets Image Classification Node.js SDK Example</h1>
+		<h2>File Upload Example</h2>
+		<h3>Check server console for output</h3>
+
+		<form action="/uploadFile" method="POST" enctype="multipart/form-data">
+			<input
+				type="file"
+				name="file"
+				id="file"
+				accept=".pdf, .png, .jpg, .jpeg"
+				required
+			/>
+			<br /><br /><br />
+
+			<button type="submit">Upload</button>
+		</form>
+
+		<a href="/">Home</a>
+	</body>
+</html>

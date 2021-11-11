@@ -1,0 +1,36 @@
+{
+	"name": "@nanonets/image-classification",
+	"version": "1.0.0",
+	"description": "NanoNets' Image Classification Node.js SDK.",
+	"main": "index.js",
+	"exports": {
+		"import": "./index.js",
+		"require": "./index.cjs",
+		"default": "./index.js"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NanoNets/ic-js-sdk.git"
+	},
+	"keywords": [
+		"nanonets",
+		"sdk",
+		"ic",
+		"image-classification"
+	],
+	"author": "NanoNets <support@nanonets.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NanoNets/ic-js-sdk/issues"
+	},
+	"homepage": "https://github.com/NanoNets/ic-js-sdk#readme",
+	"dependencies": {
+		"form-data": "^4.0.0",
+		"node-fetch-2": "npm:node-fetch@^2.6.6",
+		"node-fetch-3": "npm:node-fetch@^3.1.0"
+	}
+}
