@@ -2,7 +2,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import express from "express";
 import multer from "multer";
-import ImageClassification from "../index.js";
+import ImageClassification from "@nanonets/image-classification";
 import dotenv from "dotenv";
 
 // Server initialization
@@ -22,10 +22,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Class instantiation
-// const ic = new ImageClassification(
-// 	process.env.API_KEY_1,
-// 	process.env.MODEL_ID_1
-// );
+const ic = new ImageClassification(
+	process.env.API_KEY_1,
+	process.env.MODEL_ID_1
+);
 
 // Routes
 app.get("/", async (req, res) => {

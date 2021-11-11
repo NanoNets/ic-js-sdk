@@ -25,6 +25,7 @@
 	},
 	"homepage": "https://github.com/NanoNets/ic-js-sdk#readme",
 	"dependencies": {
+		"@nanonets/image-classification": "^1.0.0",
 		"dotenv": "^10.0.0",
 		"express": "^4.17.1",
 		"multer": "^1.4.3"

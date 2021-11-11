@@ -1,6 +1,6 @@
-# NanoNets SDK Example
+# NanoNets Image Classification SDK Example
 
-A sample web app that uses the [NanoNets](https://nanonets.com) Image Classification Node.js SDK.
+A sample web app that uses the [NanoNets Image Classification Node.js SDK](https://www.npmjs.com/package/@nanonets/image-classification).
 
 ## Usage Instructions
 

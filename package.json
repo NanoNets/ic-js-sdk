@@ -1,6 +1,6 @@
 {
 	"name": "@nanonets/image-classification",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "NanoNets' Image Classification Node.js SDK.",
 	"main": "index.js",
 	"exports": {
