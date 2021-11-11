@@ -47,10 +47,10 @@ const ic = new ImageClassification(apiKey, modelId);
 
 ### Table of Contents
 
--   [Class Instantiation (Constructor)](#class-instantiation-constructor-1)
--   [Get Model Details](#get-model-details-1)
--   [Predict Using URLs](#predict-using-urls-1)
--   [Predict Using File](#predict-using-file-1)
+-   [Class Instantiation (Constructor)](#class-instantiation-constructor)
+-   [Get Model Details](#get-model-details)
+-   [Predict Using URLs](#predict-using-urls)
+-   [Predict Using File](#predict-using-file)
 
 ### Class Instantiation (Constructor)
 
